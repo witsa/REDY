@@ -1,5 +1,4 @@
-name: 💡 Fiche Idée WIT
-description: Proposez une idée ou un besoin à étudier dans le cadre du projet.
+title: 💡 Fiche Idée WIT
 labels: [idée, besoin, WIT]
 body:
   - type: markdown
