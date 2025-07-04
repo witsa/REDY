@@ -47,7 +47,7 @@ body:
       label: Adéquation Feuille de route Projet "CAP 2030"
       description: Choisir un axe et expliquez le lien dans le champ suivant.
       options:
-        - Axe 1 : Limiter les impacts négatifs liés aux différentes étapes du cycle de vie de nos produits.
-        - Axe 2 : Générer un maximum d’impacts positifs à chaque déploiement de nos solutions.
-        - Axe 3 : Normaliser de nouveaux indicateurs de performance de nos solutions.
-        - Axe 4 : Développer une coopération active avec tous les acteurs de notre écosystème.
+        - Limiter les impacts négatifs liés aux différentes étapes du cycle de vie de nos produits.
+        - Générer un maximum d’impacts positifs à chaque déploiement de nos solutions.
+        - Normaliser de nouveaux indicateurs de performance de nos solutions.
+        - Développer une coopération active avec tous les acteurs de notre écosystème.
