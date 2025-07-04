@@ -52,9 +52,3 @@ body:
         - Axe 2 : Générer un maximum d’impacts positifs à chaque déploiement de nos solutions.
         - Axe 3 : Normaliser de nouveaux indicateurs de performance de nos solutions.
         - Axe 4 : Développer une coopération active avec tous les acteurs de notre écosystème.
-
-  - type: textarea
-    id: cap2030_description
-    attributes:
-      label: Lien avec l’axe choisi
-      placeholder: Décrivez comment votre idée contribue à cet axe stratégique

@@ -1,0 +1,34 @@
+name: 💬 Discussion générale
+description: Pose une question, partage une idée ou ouvre une discussion sur ce projet.
+labels: [discussion]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de contribuer à la communauté ! Remplis les informations ci-dessous pour lancer une discussion constructive.
+  - type: input
+    id: title
+    attributes:
+      label: Sujet
+      description: Donne un titre clair à ta discussion
+      placeholder: Ex: Suggestion pour améliorer le tableau de bord
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: Contenu
+      description: Décris ta question, idée ou commentaire
+      placeholder: |
+        J’ai pensé à une nouvelle fonctionnalité pour améliorer l’expérience utilisateur...
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type de discussion
+      description: Choisis une catégorie pour ta discussion
+      options:
+        - Question
+        - Idée / Suggestion
+        - Autre
