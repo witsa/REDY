@@ -11,7 +11,7 @@ body:
     attributes:
       label: Sujet
       description: Donne un titre clair à ta discussion
-      placeholder: Ex: Suggestion pour améliorer le tableau de bord
+      placeholder: TEST
     validations:
       required: true
   - type: textarea
