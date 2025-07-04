@@ -1,55 +1,60 @@
-title: "[General] "
-labels: ["General Introduction"]
+name: 💡 Fiche Idée WIT
+description: Proposez une idée ou un besoin à étudier dans le cadre du projet.
+labels: [idée, besoin, WIT]
 body:
   - type: markdown
     attributes:
       value: |
-        This is text that will show up in the template!
-  - type: textarea
-    id: improvements
-    attributes:
-      label: Top 3 improvements
-      description: "What are the top 3 improvements we could make to this project?"
-      value: |
-        1.
-        2.
-        3.
-        ...
-      render: bash
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## Markdown header
-        And some more markdown
+        Merci de remplir cette fiche pour soumettre une nouvelle idée ou un besoin.
+
   - type: input
-    id: has-id
+    id: nom
     attributes:
-      label: Suggestions
-      description: A description about suggestions to help you
+      label: Nom / Prénom
+      placeholder: Jean Dupont
     validations:
       required: true
-  - type: dropdown
-    id: download
+
+  - type: input
+    id: email
     attributes:
-      label: Which area of this project could be most improved?
-      options:
-        - Documentation
-        - Pull request review time
-        - Bug fix time
-        - Release cadence
+      label: Mail
+      placeholder: nom@entreprise.fr
+
+  - type: textarea
+    id: besoin
+    attributes:
+      label: Description du Besoin
+      description: Décrivez clairement le besoin ou l’idée à soumettre.
     validations:
       required: true
+
   - type: checkboxes
+    id: marche
     attributes:
-      label: Check that box!
+      label: Marché cible
+      description: Cochez les options qui s'appliquent
       options:
-        - label: This one!
-          required: true
-        - label: I won't stop you if you check this one, too
-  - type: markdown
+        - label: Exploitants
+        - label: Collectivités
+        - label: Intégrateurs/Installateurs
+        - label: Bureaux d’études
+        - label: Client final
+        - label: Plateformes (énergétiques ou gestion de données)
+
+  - type: dropdown
+    id: cap2030
     attributes:
-      value: |
-        ### The thrilling conclusion
-        _to our template_
+      label: Adéquation Feuille de route Projet "CAP 2030"
+      description: Choisir un axe et expliquez le lien dans le champ suivant.
+      options:
+        - Axe 1 : Limiter les impacts négatifs liés aux différentes étapes du cycle de vie de nos produits.
+        - Axe 2 : Générer un maximum d’impacts positifs à chaque déploiement de nos solutions.
+        - Axe 3 : Normaliser de nouveaux indicateurs de performance de nos solutions.
+        - Axe 4 : Développer une coopération active avec tous les acteurs de notre écosystème.
+
+  - type: textarea
+    id: cap2030_description
+    attributes:
+      label: Lien avec l’axe choisi
+      placeholder: Décrivez comment votre idée contribue à cet axe stratégique
